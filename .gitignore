@@ -161,6 +161,7 @@ cython_debug/
 
 # Data Files
 *.db
+*.csv
 *.zip
 .ipynb_checkpoints
 .DS_Store
