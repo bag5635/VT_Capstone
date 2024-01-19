@@ -164,14 +164,15 @@ Telus International. (2022, February 17). How is AI transforming fraud detection
 
 # Repository Navigation
 ## Repository Organization
-The repository is organized with the main location having the images, readme, main notebook and two folders. One folder holds the test data while the other folder the groups individual notebooks.
+The repository is organized with the main location having the readme, main notebook and three folders. One folder holds the test data while the second folder holds the groups individual notebooks, and the third folder stores the images for this readme.
+
 ## Link to Final Notebook & Presentation
-[Final Presentation](Final_Presentation.pptx)
 
+[Final Presentation](Top Quality Group January Presentation.pdf)
 
-[Final Notebook](Final_Presentation.pptx)
+[Final Notebook](Final Notebook.ipynb)
 
 ## Reproduction Instructions
 
 The final notebook will have a step by step guide on reproducing our environment for training, testing, and evaluating the data.
-[Reproduction Instructions](Final_Presentation.pptx)
+[Reproduction Instructions](Final Notebook.ipynb)
