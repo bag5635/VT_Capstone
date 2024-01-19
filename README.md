@@ -1,14 +1,13 @@
 # Implementation of an ML-Based Fraud Detection System
-
+## Context
 The global rise in online fraud, coupled with the dynamic nature of fraudulent activities, necessitates an initiative-taking and adaptive approach to fraud detection. Our institution seeks to leverage advanced technologies to stay ahead of emerging threats and provide a secure financial environment for our customers.
 
-![](Header.jpg)
+![](Images/Header.jpg)
 
 ## Executive Summary
 The financial landscape is evolving rapidly, with the increasing prevalence of online transactions, making fraud detection a critical concern for our institution. This business case proposes the implementation of a state-of-the-art machine learning (ML) based fraud detection system to enhance our ability to identify and mitigate fraudulent activities. Funbucks Financial Services is seeking bids from consulting organizations in streamlining their legacy operations surrounding fraud.
 
-## Context
-The global rise in online fraud, coupled with the dynamic nature of fraudulent activities, necessitates an initiative-taking and adaptive approach to fraud detection. Our institution seeks to leverage advanced technologies to stay ahead of emerging threats and provide a secure financial environment for our customers.
+
 ## Client Statement
 As a leading technology institution with specialization in fintech services we seek to provide a bid to Funbucks Financial Services on assisting in streamlining fraud detection services for their clients based on the following objectives
 
@@ -34,7 +33,7 @@ While the United States in leading the world in banking related AI research and 
 The article underscores the increasing importance of Artificial Intelligence (AI) in the banking sector for real-time fraud prevention and detection. It notes the substantial growth of AI-driven solutions, predicting a 300-billion-dollar impact by year 2030. Despite the costs, studies suggest a favorable cost-benefit equation, emphasizing both financial and non-financial returns. However, the article raises concerns about potential financial fraud amid the government's push for inclusion and digitalization, particularly in the absence of basic financial literacy. It advocates for a careful balance between embracing technology and safeguarding stakeholders' interests. A highlight of the article is the need for a blend of AI capabilities with human intervention working for a better customer experience. The article concludes by calling for further studies to assess the economic effects of AI implementation across business for evidence-based analysis. (Mishra, Mishra, & Mohanty, 2023)
 ### The Role Artificial Intelligence in Modern Banking: 
 The article explores the transformative impact of Artificial Intelligence (AI) on banking fraud prevention and risk management. AI enables a shift from reactive to proactive measures, providing real-time fraud detection by analyzing vast data streams. Traditional static methods are replaced by AI's ability to recognize complex patterns, particularly through deep learning and neural networks. AI enhances 'Know Your Customer' processes through Natural Language Processing and graph analytics, ensuring rigorous customer verification. In credit scoring, AI considers diverse parameters, offering a more holistic risk profile. The integration of AI-powered chatbots facilitates immediate reporting of suspicious activities. Biometric verification, when coupled with AI, enhances accuracy and adaptability, preventing unauthorized access. AI-driven geospatial analysis, behavioral biometrics, and self-learning mechanisms further contribute to dynamic and holistic fraud detection. The article emphasizes AI's role in omni-channel analysis, stress testing, and ensuring compliance with evolving regulatory standards in the banking sector. Finally, as the Internet of Things (IoT) becomes more integrated with banking, AI continues to play a crucial role in monitoring and ensuring the security of interactions. (Aziz & Andriansyah, 2023)
-### How AI is Used in Fraud Detection:
+### Benefits and Risks of AI in Fraud Detection:
 This article discusses the benefits and risks of using AI in Fraud Detection with the Benefits being firstly, AI processes incoming data swiftly, blocking new threats in milliseconds, ensuring dynamic and fast security. Secondly, the more data AI receives, the better its predictions become. It continuously improves over time, especially when instances share knowledge globally. Lastly, AI reduces the need for reactive measures by swiftly identifying threats. This enables employees to spend less time on investigating threats and reviewing information, allowing them more time for projects that drive business growth. Additionally risks of using AI in fraud detection are explained primarily by Automated threats are not the only concern; social fraud, such as phishing and social engineering, remains a challenge. These non-automated threats are difficult for AI to combat, requiring ongoing employee education to mitigate risks. Secondarily, the extensive data processing by AI, especially when combined with machine learning and neural networks, can make it challenging to understand its inner workings. Despite this "black box" aspect, top fraud detection software allows customization of rules for better control. Finally, While AI minimizes false positives, completely eliminating them is impossible. Occasionally, genuine users, especially those employing uncommon browsers and VPNs, may be mistakenly blocked by AI. (How AI is Used in Fraud Detection – Benefits & Risks, 2022)
 ## How is artificial intelligence used in fraud detection?
 The role of Artificial Intelligence (AI) in fraud detection, cybersecurity, and crime prevention Is emphasizes by the global economic impact of fraud and cyber breaches. The projecting digital fraud losses exceed $343 billion between 2023 and 2027. The benefits of AI in fraud detection include enhanced accuracy, real-time monitoring, reduced false positives, increased efficiency, and cost reduction. However, potential risks of AI in fraud detection are acknowledged in this article, such as biased algorithms, negative results, and lack of transparency. Explainable AI is suggested as a solution to mitigate these risks by providing interpretable explanations for AI decisions. (Bassi, 2023)
@@ -131,22 +130,29 @@ It is important that accuracy and costs are factored into the ML model. When des
 
 ## Tables:
 
-### Table 1- Credit Card Fraud Detection Database:
- ![](Table1.png)
+### Table 1- Credit Card Fraud Detection Database
+ ![](Images/Table1.png)
  
 ### Table 2- Random Forest Model Metrics
- ![](Table2.png)
+ ![](Images/Table2.jpg)
 
 ## Graphs:
 
-### Graph 1 - Weighing what variables are most important for Random Forest Model Predicting the Target Variable
- ![](Graph1.png)
+### Graph 1 - Assessing the count differences between non-fraudulent and fraudulent transactions in the dataset
+ ![](Images/Graph1.png)
 
-### Graph 2 - Evaluation metrics of Random Forest Model
- ![](Graph2.png)
+### Graph 2 - Correlation of variables in the dataset
+ ![](Images/Graph2.png)
 
-### Graph 3 – Assess the rates of the True Positive / True Negative / False Positive / False Negative
- ![](Graph3.png)
+### Graph 3 – Weighing what variables are most important for Random Forest Model Predicting the Target Variable
+ ![](Images/Graph3.png)
+ 
+### Graph 4 – Evaluation of the metrics of the Random Forest Model
+ ![](Images/Graph4.png)
+### Graph 5 – Assessing the rates of the True Positive / True Negative / False Positive / False Negative:
+ ![](Images/Graph5.png)
+### Graph 6 - Assessing how the performance metric (in this case, the ROC AUC score) changes across different combinations of hyperparameters during the grid search process. Let me break down why it's valuable:
+ ![](Images/Graph6.png)
  
 ## References
 Dorfman, E. (2022, March 25). Is Required for Machine Learning? Retrieved from Postindustria: https://postindustria.com/how-much-data-is-required-for-machine-learning/
@@ -163,9 +169,9 @@ The repository is organized with the main location having the images, readme, ma
 [Final Presentation](Final_Presentation.pptx)
 
 
-Notebook in the works
+[Final Notebook](Final_Presentation.pptx)
 
-## Reproduction Instrctions
+## Reproduction Instructions
 
-Notebook in the works (Linking to notebook again which has instructions on the steps used on training the data.
-
+The final notebook will have a step by step guide on reproducing our environment for training, testing, and evaluating the data.
+[Reproduction Instructions](Final_Presentation.pptx)
