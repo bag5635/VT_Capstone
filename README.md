@@ -168,11 +168,11 @@ The repository is organized with the main location having the readme, main noteb
 
 ## Link to Final Notebook & Presentation
 
-[Final Presentation](Top Quality Group January Presentation.pdf)
+![Final Presentation](Top Quality Group January Presentation.pdf)
 
-[Final Notebook](Final Notebook.ipynb)
+![Final Notebook](Final Notebook.ipynb)
 
 ## Reproduction Instructions
 
 The final notebook will have a step by step guide on reproducing our environment for training, testing, and evaluating the data.
-[Reproduction Instructions](Final Notebook.ipynb)
+![Reproduction Instructions](Final Notebook.ipynb)
